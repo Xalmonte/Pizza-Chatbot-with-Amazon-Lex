@@ -108,23 +108,130 @@ Hello! In this project, I will be creating a chatbot for an imaginary pizza shop
 <img width="1432" alt="step 28" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/435bf2b3-469d-49d9-ab14-0bd784f3b70c">
 
     
-30. Once you have finished, scroll down and save intent. Select build at the top and select test to test out the bot's new features you have created. Look at the screenshots below to see the updates. Feel free to write scrambled messaging to see how the bot responds with a similar message and doesn't get lost in translation.
-43. We now want to create a feature that allows the customer to order drinks from the bot so head back to intents and add new intent.
-44. Name this intent DrinkOrdering and add some utterances similar to the above step to help the bot understand that the customer wants to order a drink(s).
-45. Scroll down to initial responses and type in a message that the bot will respond back to the client to help them fulfill their drink order and save intent.
-46. Navigate to slot types and add a new slot type. We will name this one DrinkType then select add.
-47. Under slot type values, add the different drink options. In this lab, we added pepsi, sprite, dr.pepper and coke. Once you're finished, select add.
-48. We want to order another slot type to help the bot understand how many drinks the customer wants. I named it NumberType and under slot type, select Amazon.Number, give it a unique prompt to help the bot ask the customer how many drinks they want and select add.
-49. Scroll down to confirmation and type a confirmation prompt, See example below for what I used.
-50. Scroll down to fulfillment and type in a successful fulfillment message along with a message in case of failure as pictured below. Scroll down and hit save intent.
-51. Scroll up and select build. Once it's been successfully built, select test and test our your new bot prompts.
-52. Once you successfully confirm your bots new responses, we will create one more intent for ordering desserts. Navigate back to intents and add a new intent
-53. We will name this DessertOrdering. Once it's done, scroll down to sample utterances and type a few messages to help the bot understand that you want to order dessert then select save intent.
-54. Navigate to slot types and create a new slot type. We will name this DessertType. Once created, add your values and select save slot type.
-55. Once completed, Head back to Intents, select DessertOrdering and scroll down to slots and select add slots.
-56. We will create our first slot to distinguish what type of desserts the customer is looking to order under DessertType in our Slot Type section with the appropriate prompts (see example below).
-57. Once completed, we want to add a second slot to distinguish how many desserts the customer is looking to order by naming it NumberType and selecting Amazon.Number under Slot Type with the appropriate prompts (Pictured below).
-58. Once completed, scroll down to confirmation and type in your confirmation prompt message followed by a decline response.
-59. After you're finished, scroll down to fulfillment and type in the appropriate messages for "on successfull fulfillment" and "In case of failure" sections.
-60. Once you're done, scroll down to save intent. Select build at the top, once you get a success message, select test  and start testing out your new bot responses.
-61. Congratulations! You have successfully built a chatbot to help fulfill custom orders for the Awesome Pizza shop. I hope you had fun creating this project.
+29. Once you have finished, scroll down and save intent. Select build at the top and select test to test out the bot's new features you have created. Look at the screenshots below to see the updates. Feel free to write scrambled messaging to see how the bot responds with a similar message and doesn't get lost in translation.
+
+<img width="1432" alt="step 29 pt 1" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/d5f8f272-82d9-41be-96be-8ad69e7044f9">
+
+<img width="1432" alt="step 29 pt 2" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/5f5afefe-b4a6-4fd2-b699-4fd2812fe37c">
+
+<img width="1432" alt="step 29 pt 3" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/16df965a-213d-4ce9-84b0-71957b227024">
+
+<img width="1432" alt="step 29 pt 4" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/cb4989e7-c248-41ad-9243-abc30ea4a7cf">
+
+<img width="1432" alt="step 29 pt 5" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/98c907a3-e793-46fd-95d8-b5e285aa27b7">
+
+<img width="1432" alt="step 29 pt 6" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/e65d8e6d-1e5a-4f8a-a141-27504d927a6a">
+
+30. We now want to create a feature that allows the customer to order drinks from the bot so head back to intents and add new intent. Name this intent DrinkOrdering.
+    
+   <img width="1432" alt="step 30" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/6b808f08-9d13-4e51-8af1-5a620958711d">
+
+31. Add some utterances similar to the above step to help the bot understand that the customer wants to order a drink(s).
+
+<img width="1432" alt="step 31" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/1296406c-166b-45b7-ab2b-5c0ff42cf367">
+
+
+32. Scroll down to initial responses and type in a message that the bot will respond back to the client to help them fulfill their drink order and save intent.
+
+<img width="1432" alt="step 32" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/c7622cfc-785f-48f1-80a9-6bced7c851ec">
+
+33. Navigate to slot types and add a new slot type.
+
+<img width="1432" alt="step 33" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/80d0508c-38ec-4459-b9c4-c8c31a3daa44">
+
+
+34. We will name this one DrinkType then select add.
+
+    <img width="1432" alt="step 34" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/0600c870-aac9-49d4-8e4a-6fb36acd29da">
+
+35. Under slot type values, add the different drink options. In this lab, we added pepsi, sprite, dr.pepper and coke. Once you're finished, select add.
+
+<img width="1432" alt="step 35" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/2a54ce43-525e-40dc-b5b1-5778b21a3515">
+
+36. We want to order another slot type to help the bot understand how many drinks the customer wants. I named it NumberType and under slot type, select Amazon.Number, give it a unique prompt to help the bot ask the customer how many drinks they want and select add.
+
+<img width="1432" alt="step 36" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/7af0a3a1-9dbf-4aee-88d4-013955bb3d36">
+
+37. Scroll down to confirmation and type a confirmation prompt, See example below for what I used.
+
+<img width="1432" alt="step 37" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/078a0fa9-781c-4fd8-9309-d18f48845a69">
+
+38. Scroll down to fulfillment and type in a successful fulfillment message along with a message in case of failure as pictured below. Scroll down and hit save intent.
+
+<img width="1432" alt="step 38" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/418a30b5-d2ff-4057-be2c-a9ba4fe47fae">
+
+39. Scroll up and select build. Once it's been successfully built, select test and test our your new bot prompts.
+
+<img width="1432" alt="step 39 pt  1" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/a20e9971-88f9-4dbb-b5e6-89492916e4a2">
+
+<img width="1432" alt="step 39 pt 2" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/570acf89-1122-47ec-aa2d-5232445c1aec">
+
+<img width="1432" alt="step 39 pt 3" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/e3a45b3d-049b-4293-811d-8f54be7a8a4c">
+
+<img width="1432" alt="step 39 pt 4" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/6f510c0c-ecee-4bf7-b972-e9316300fc1a">
+
+<img width="1432" alt="step 39 pt 5" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/0c7829dc-1715-49b0-902c-ad4698dd8886">
+
+<img width="1432" alt="step 39 pt 6" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/b557c460-ffc5-4b8b-b5e5-b75eee070860">
+
+<img width="1432" alt="step 39 pt 7" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/a5a079fa-d12d-495a-b9b8-ddd7c5a8635c">
+
+40. Once you successfully confirm your bots new responses, we will create one more intent for ordering desserts. Navigate back to intents and add a new intent
+
+<img width="1432" alt="step 40" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/98610367-ddc4-4dc1-a5cc-afc9490dd505">
+
+41. We will name this DessertOrdering. Once it's done, scroll down to sample utterances and type a few messages to help the bot understand that you want to order dessert then select save intent.
+
+<img width="1432" alt="step 41" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/29e86fe1-8d82-41d2-b65a-4828133af584">
+
+42. Navigate to slot types and create a new slot type. We will name this DessertType. Once created, add your values and select save slot type.
+
+<img width="1432" alt="step 42" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/e1d1adf5-fa31-45f3-9301-2c2194726c3f">
+
+<img width="1432" alt="step 42 pt 2" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/dbf4edda-23f6-4387-936b-479a1c23fa14">
+
+
+43. Once completed, Head back to Intents, select DessertOrdering and scroll down to slots and select add slots.
+
+
+44. We will create our first slot to distinguish what type of desserts the customer is looking to order under
+DessertType in our Slot Type section with the appropriate prompts (see example below).
+
+<img width="1432" alt="step 44" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/38a968d9-cdda-40e4-999f-eba4520e55be">
+
+
+45. Once completed, we want to add a second slot to distinguish how many desserts the customer is looking to order by naming it NumberType and selecting Amazon.Number under Slot Type with the appropriate prompts (Pictured below).
+
+<img width="1432" alt="step 45" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/c6425888-937e-433e-b6f1-6a3a074fc8ec">
+
+46. Once completed, scroll down to confirmation and type in your confirmation prompt message followed by a decline response.
+
+<img width="1432" alt="step 46" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/d67b22d4-f7c6-4980-bf39-23d85733dbb3">
+
+
+47. After you're finished, scroll down to fulfillment and type in the appropriate messages for "on successful fulfillment" and "In case of failure" sections.
+
+<img width="1432" alt="step 47" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/f830ba23-0abc-4474-b2a5-b242f3d54db5">
+
+
+48. Once you're done, scroll down to save intent. Select build at the top, once you get a success message, select test  and start testing out your new bot responses.
+    
+<img width="1432" alt="step 48 pt 1" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/bf0b45bd-f4b1-4b37-95fd-e498727c6bfa">
+
+<img width="1432" alt="step 48 pt 2" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/5c15a501-0c93-428a-8721-0fb6e0e203fc">
+
+<img width="1432" alt="step 48 pt 3" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/290bcb35-fbf4-496e-b029-184b25dceb80">
+
+<img width="1432" alt="step 48 pt 4" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/080b7553-0ec4-49dc-b5f5-a64730eba8ba">
+
+<img width="1432" alt="step 48 pt 5" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/4ea4be6e-5acb-428e-855e-0db8955194b5">
+
+<img width="1432" alt="step 48 pt 6" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/99e86264-bef6-4252-bac0-20e22102259c">
+
+<img width="1432" alt="step 48 pt 7" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/3500449b-eecc-4020-95ac-29c114c10f42">
+
+<img width="1432" alt="step 48 pt 8" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/926e1166-cb28-4195-bf6e-a1a9eec2ff27">
+
+<img width="1432" alt="step 48 pt 9" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/b5171074-aef3-4562-ac86-af794d095e43">
+
+49. Congratulations! You have successfully built a chatbot to help fulfill custom orders for the Awesome Pizza shop. I hope you had fun creating this project.
