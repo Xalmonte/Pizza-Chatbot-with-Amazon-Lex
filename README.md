@@ -56,8 +56,17 @@ Hello! In this project, I will be creating a chatbot for an imaginary pizza shop
 
     
 14. Once you confirm the bot is working, head back to intents and create a new intent.
+
+<img width="1432" alt="step 14" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/9ea89e1c-e831-4d61-bc3b-64a3977bd277">
+
 15. We will name this "Pizza ordering"
+
+<img width="1432" alt="step 15" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/0a961f0d-a4a4-47ef-a7dc-eb0dd5adbe41">
+
+
 16. Once you complete naming your intent, head to sample utterances and type in some sample phrases like pictured below which will tell the bot you're wanting to order pizza.
+
+
 17. Scroll down to initial response and type in a response that will reflect the bot understanding the customer wanting to order pizza then save intent.
   
   <img width="1432" alt="step 17" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/6039810e-9866-440b-bc9f-1ffc80d241b2">
@@ -192,6 +201,8 @@ Hello! In this project, I will be creating a chatbot for an imaginary pizza shop
 
 
 43. Once completed, Head back to Intents, select DessertOrdering and scroll down to slots and select add slots.
+
+<img width="1432" alt="step 43" src="https://github.com/Xalmonte/Pizza-Chatbot-with-Amazon-Lex/assets/169603464/d9ac7f74-5b41-4b30-8b0a-0b7100a838d9">
 
 
 44. We will create our first slot to distinguish what type of desserts the customer is looking to order under
